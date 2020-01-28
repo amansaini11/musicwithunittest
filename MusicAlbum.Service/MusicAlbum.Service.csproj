@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicAlbum.Model\MusicAlbum.Model.csproj" />
+    <ProjectReference Include="..\MusicAlbum1.Repository\MusicAlbum.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

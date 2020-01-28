@@ -1,0 +1,17 @@
+H:\MusicAlbum\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.dll
+H:\MusicAlbum\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.pdb
+H:\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.csproj.CoreCompileInputs.cache
+H:\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.dll
+H:\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.pdb
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.dll
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.pdb
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.csprojAssemblyReference.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.csproj.CoreCompileInputs.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.dll
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.pdb
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.dll
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\bin\Debug\MusicAlbum.Model.pdb
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.csprojAssemblyReference.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.csproj.CoreCompileInputs.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.dll
+D:\aman_id_project\MusicAlbum\MusicAlbum_1\MusicAlbum\MusicAlbum.Model\obj\Debug\MusicAlbum.Model.pdb

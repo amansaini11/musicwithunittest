@@ -1,0 +1,178 @@
+[2020-01-23 15:08:36.7672][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:08:38.5105][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:08:48.0502][DESKTOP-LNQN6UL][Fatal] Application startup exception An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = EndpointDataSource[] (DelegateActivator), Services = [System.Collections.Generic.IEnumerable`1[[Microsoft.AspNetCore.Routing.EndpointDataSource, Microsoft.AspNetCore.Routing, Version=2.2.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = ExternallyOwned ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = MvcEndpointDataSource (ReflectionActivator), Services = [Microsoft.AspNetCore.Routing.EndpointDataSource], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.AspNetCore.Mvc.Infrastructure.IActionDescriptorCollectionProvider, Microsoft.AspNetCore.Mvc.Internal.MvcEndpointInvokerFactory, Microsoft.AspNetCore.Routing.ParameterPolicyFactory)' on type 'MvcEndpointDataSource'. ---> The following errors occurred with attribute routing information:
+
+Error 1:
+Attribute routes with the same name 'Get' must have the same template:
+Action: 'MusicAlbum.Web.Controllers.Default1Controller.Get (MusicAlbum.Web)' - Template: 'api/Default1/{id}'
+Action: 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' - Template: 'api/Default/{id}' (See inner exception for details.) (See inner exception for details.) (See inner exception for details.)
+[2020-01-23 15:08:48.1570][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:08:48.1570][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:08:48.1570][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:08:48.1681][DESKTOP-LNQN6UL][Error] Connection ID "17942340929939570965", Request ID "80000116-0003-f900-b63f-84710c7967bb": An unhandled exception was thrown by the application. Arithmetic operation resulted in an overflow.
+[2020-01-23 15:08:48.1681][DESKTOP-LNQN6UL][Error] Connection ID "18158513699168453103", Request ID "800001f0-0000-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application. Arithmetic operation resulted in an overflow.
+[2020-01-23 15:08:48.1681][DESKTOP-LNQN6UL][Error] Connection ID "17654110545197924409", Request ID "8000003a-0001-f500-b63f-84710c7967bb": An unhandled exception was thrown by the application. Index and count must refer to a location within the buffer.
+Parameter name: chars
+[2020-01-23 15:08:48.1681][DESKTOP-LNQN6UL][Info] Request finished in 14.103ms 0  
+[2020-01-23 15:08:48.1681][DESKTOP-LNQN6UL][Info] Request finished in 14.7056ms 0  
+[2020-01-23 15:08:48.1976][DESKTOP-LNQN6UL][Info] Request finished in 41.6775ms 500  
+[2020-01-23 15:08:55.2343][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:08:55.2622][DESKTOP-LNQN6UL][Info] Request finished in 27.9436ms 500 text/html; charset=utf-8 
+[2020-01-23 15:09:16.8106][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default1/Get   
+[2020-01-23 15:09:16.8286][DESKTOP-LNQN6UL][Info] Request finished in 18.016ms 500 text/html; charset=utf-8 
+[2020-01-23 15:09:54.2233][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:09:55.7877][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:10:25.6392][DESKTOP-LNQN6UL][Fatal] Application startup exception An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = EndpointDataSource[] (DelegateActivator), Services = [System.Collections.Generic.IEnumerable`1[[Microsoft.AspNetCore.Routing.EndpointDataSource, Microsoft.AspNetCore.Routing, Version=2.2.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = ExternallyOwned ---> An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = MvcEndpointDataSource (ReflectionActivator), Services = [Microsoft.AspNetCore.Routing.EndpointDataSource], Lifetime = Autofac.Core.Lifetime.RootScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.AspNetCore.Mvc.Infrastructure.IActionDescriptorCollectionProvider, Microsoft.AspNetCore.Mvc.Internal.MvcEndpointInvokerFactory, Microsoft.AspNetCore.Routing.ParameterPolicyFactory)' on type 'MvcEndpointDataSource'. ---> The following errors occurred with attribute routing information:
+
+Error 1:
+Attribute routes with the same name 'Get' must have the same template:
+Action: 'MusicAlbum.Web.Controllers.Default1Controller.Get (MusicAlbum.Web)' - Template: 'api/Default1/{id}'
+Action: 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' - Template: 'api/Default/{id}' (See inner exception for details.) (See inner exception for details.) (See inner exception for details.)
+[2020-01-23 15:10:25.7439][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:10:25.7439][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default/get   
+[2020-01-23 15:10:25.7439][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:10:25.7815][DESKTOP-LNQN6UL][Error] Connection ID "18014398515387564416", Request ID "80000181-0001-fa00-b63f-84710c7967bb": An unhandled exception was thrown by the application. Writing is not allowed after writer was completed.
+[2020-01-23 15:10:25.7815][DESKTOP-LNQN6UL][Error] Connection ID "18158513707758387592", Request ID "80000189-0002-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application. Writing is not allowed after writer was completed.
+[2020-01-23 15:10:25.7815][DESKTOP-LNQN6UL][Error] Connection ID "18230571297501348148", Request ID "80000135-0001-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application. Writing is not allowed after writer was completed.
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Info] Request finished in 48.6303ms 0 text/html; charset=utf-8 
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Info] Request finished in 47.293ms 0  
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Info] Request finished in 49.5854ms 500  
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Error] Unexpected exception in "IISHttpContext.WriteBody". Concurrent reads or writes are not supported.
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Error] Unexpected exception in "IISHttpContext.WriteBody". Concurrent reads or writes are not supported.
+[2020-01-23 15:10:25.7917][DESKTOP-LNQN6UL][Error] Unexpected exception in "IISHttpContext.WriteBody". Concurrent reads or writes are not supported.
+[2020-01-23 15:10:28.3274][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default/get   
+[2020-01-23 15:10:28.3471][DESKTOP-LNQN6UL][Info] Request finished in 19.7207ms 500 text/html; charset=utf-8 
+[2020-01-23 15:11:00.7807][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:11:02.2939][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:11:02.7848][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:11:02.8104][DESKTOP-LNQN6UL][Warn] Failed to determine the https port for redirect. 
+[2020-01-23 15:11:02.8905][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:11:02.9018][DESKTOP-LNQN6UL][Info] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MusicAlbum.Controllers.HomeController (MusicAlbum.Web). 
+[2020-01-23 15:11:03.0063][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:11:03.0063][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6566ms. 
+[2020-01-23 15:11:03.0301][DESKTOP-LNQN6UL][Info] Executing ViewResult, running view Index. 
+[2020-01-23 15:11:03.0301][DESKTOP-LNQN6UL][Error] The view 'Index' was not found. Searched locations: /Views/Home/Index.cshtml, /Views/Shared/Index.cshtml, /Pages/Shared/Index.cshtml 
+[2020-01-23 15:11:03.0366][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) in 131.3878ms 
+[2020-01-23 15:11:03.0366][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:11:03.0366][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+[2020-01-23 15:11:03.1371][DESKTOP-LNQN6UL][Info] Request finished in 352.9827ms 500 text/html; charset=utf-8 
+[2020-01-23 15:11:09.7706][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default/Get   
+[2020-01-23 15:11:09.7706][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:11:09.7999][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.String Get(Int32) on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:11:09.8078][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 7.0224ms 
+[2020-01-23 15:11:09.8078][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:11:09.8078][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AlbumService (ReflectionActivator), Services = [MusicAlbum.Service.Service.IAlbumService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MusicAlbum.Service.Service.AlbumService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'NLog.ILogger logger' of constructor 'Void .ctor(MusicAlbum.Repository.Repository.IAlbumsRepository, NLog.ILogger)'. (See inner exception for details.)
+[2020-01-23 15:11:09.8397][DESKTOP-LNQN6UL][Info] Request finished in 69.075ms 500 text/html; charset=utf-8 
+[2020-01-23 15:11:52.5448][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:11:54.1119][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:11:54.6203][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:11:54.6203][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:11:54.6606][DESKTOP-LNQN6UL][Warn] Failed to determine the https port for redirect. 
+[2020-01-23 15:11:54.7138][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:11:54.7138][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:11:54.7334][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:11:54.7334][DESKTOP-LNQN6UL][Info] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MusicAlbum.Controllers.HomeController (MusicAlbum.Web). 
+[2020-01-23 15:11:54.7485][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 11.5512ms 
+[2020-01-23 15:11:54.7588][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:11:54.7588][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AlbumService (ReflectionActivator), Services = [MusicAlbum.Service.Service.IAlbumService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MusicAlbum.Service.Service.AlbumService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'NLog.ILogger logger' of constructor 'Void .ctor(MusicAlbum.Repository.Repository.IAlbumsRepository, NLog.ILogger)'. (See inner exception for details.)
+[2020-01-23 15:11:54.8456][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:11:54.8576][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6008ms. 
+[2020-01-23 15:11:54.8975][DESKTOP-LNQN6UL][Info] Executing ViewResult, running view Index. 
+[2020-01-23 15:11:54.8975][DESKTOP-LNQN6UL][Error] The view 'Index' was not found. Searched locations: /Views/Home/Index.cshtml, /Views/Shared/Index.cshtml, /Pages/Shared/Index.cshtml 
+[2020-01-23 15:11:54.8975][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) in 169.4357ms 
+[2020-01-23 15:11:54.9110][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:11:54.9110][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+[2020-01-23 15:11:54.9626][DESKTOP-LNQN6UL][Info] Request finished in 342.9454ms 500 text/html; charset=utf-8 
+[2020-01-23 15:11:54.9626][DESKTOP-LNQN6UL][Info] Request finished in 342.9393ms 500 text/html; charset=utf-8 
+[2020-01-23 15:12:27.8644][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:12:29.4381][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:12:29.9620][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:12:29.9620][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:12:29.9909][DESKTOP-LNQN6UL][Warn] Failed to determine the https port for redirect. 
+[2020-01-23 15:12:30.0377][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:12:30.0377][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:12:30.0548][DESKTOP-LNQN6UL][Info] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MusicAlbum.Controllers.HomeController (MusicAlbum.Web). 
+[2020-01-23 15:12:30.0548][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:12:32.5349][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:12:32.5349][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:12:33.3112][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 766.7061ms. 
+[2020-01-23 15:12:33.3112][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 766.3156ms. 
+[2020-01-23 15:12:33.3282][DESKTOP-LNQN6UL][Info] Executing ObjectResult, writing value of type 'System.String[]'. 
+[2020-01-23 15:12:33.3505][DESKTOP-LNQN6UL][Info] Executing ViewResult, running view Index. 
+[2020-01-23 15:12:33.3505][DESKTOP-LNQN6UL][Error] The view 'Index' was not found. Searched locations: /Views/Home/Index.cshtml, /Views/Shared/Index.cshtml, /Pages/Shared/Index.cshtml 
+[2020-01-23 15:12:33.3505][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) in 3299.4981ms 
+[2020-01-23 15:12:33.3505][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:12:33.3505][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+[2020-01-23 15:12:33.4055][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 3348.2978ms 
+[2020-01-23 15:12:33.4055][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:12:33.4125][DESKTOP-LNQN6UL][Info] Request finished in 3451.3399ms 200 application/json; charset=utf-8 
+[2020-01-23 15:12:33.4525][DESKTOP-LNQN6UL][Info] Request finished in 3491.5354ms 500 text/html; charset=utf-8 
+[2020-01-23 15:13:11.7200][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:13:13.3887][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:13:14.0628][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:13:14.0628][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:13:14.0946][DESKTOP-LNQN6UL][Warn] Failed to determine the https port for redirect. 
+[2020-01-23 15:13:14.1398][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:13:14.1398][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:13:14.1586][DESKTOP-LNQN6UL][Info] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MusicAlbum.Controllers.HomeController (MusicAlbum.Web). 
+[2020-01-23 15:13:14.1586][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.String Get() on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:13:19.4283][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:13:19.4283][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:13:22.1549][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.7704ms. 
+[2020-01-23 15:13:33.3712][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 19204.1388ms 
+[2020-01-23 15:13:33.3788][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:13:33.3788][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+[2020-01-23 15:13:33.4061][DESKTOP-LNQN6UL][Info] Executing ViewResult, running view Index. 
+[2020-01-23 15:13:33.4061][DESKTOP-LNQN6UL][Error] The view 'Index' was not found. Searched locations: /Views/Home/Index.cshtml, /Views/Shared/Index.cshtml, /Pages/Shared/Index.cshtml 
+[2020-01-23 15:13:33.4061][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) in 19250.4191ms 
+[2020-01-23 15:13:33.4108][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:13:33.4108][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+[2020-01-23 15:13:33.4711][DESKTOP-LNQN6UL][Info] Request finished in 19408.6992ms 500 text/html; charset=utf-8 
+[2020-01-23 15:13:33.4711][DESKTOP-LNQN6UL][Info] Request finished in 19408.8489ms 500 text/html; charset=utf-8 
+[2020-01-23 15:14:06.2637][DESKTOP-LNQN6UL][Debug] init main function 
+[2020-01-23 15:14:07.9020][DESKTOP-LNQN6UL][Info] User profile is available. Using 'C:\Users\Creatick\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+[2020-01-23 15:14:08.4169][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:14:08.4169][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/   
+[2020-01-23 15:14:08.4475][DESKTOP-LNQN6UL][Warn] Failed to determine the https port for redirect. 
+[2020-01-23 15:14:08.4981][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:14:08.4981][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:14:08.5165][DESKTOP-LNQN6UL][Info] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MusicAlbum.Controllers.HomeController (MusicAlbum.Web). 
+[2020-01-23 15:14:08.5165][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.String Get() on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:14:08.5456][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 24.0007ms 
+[2020-01-23 15:14:08.5456][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:14:08.5456][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AlbumService (ReflectionActivator), Services = [MusicAlbum.Service.Service.IAlbumService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MusicAlbum.Service.Service.AlbumService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'NLog.ILogger logger' of constructor 'Void .ctor(MusicAlbum.Repository.Repository.IAlbumsRepository, NLog.ILogger)'. (See inner exception for details.)
+[2020-01-23 15:14:08.6328][DESKTOP-LNQN6UL][Info] Executing action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) - Validation state: Valid 
+[2020-01-23 15:14:08.6328][DESKTOP-LNQN6UL][Info] Executed action method MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9028ms. 
+[2020-01-23 15:14:08.6641][DESKTOP-LNQN6UL][Info] Executing ViewResult, running view Index. 
+[2020-01-23 15:14:08.6641][DESKTOP-LNQN6UL][Error] The view 'Index' was not found. Searched locations: /Views/Home/Index.cshtml, /Views/Shared/Index.cshtml, /Pages/Shared/Index.cshtml 
+[2020-01-23 15:14:08.6641][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web) in 154.8133ms 
+[2020-01-23 15:14:08.6641][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Controllers.HomeController.Index (MusicAlbum.Web)' 
+[2020-01-23 15:14:08.6772][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+[2020-01-23 15:14:08.7272][DESKTOP-LNQN6UL][Info] Request finished in 311.3998ms 500 text/html; charset=utf-8 
+[2020-01-23 15:14:08.7272][DESKTOP-LNQN6UL][Info] Request finished in 311.0129ms 500 text/html; charset=utf-8 
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Info] Request starting HTTP/1.1 GET http://localhost:52563/api/Default   
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Info] Executing endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Info] Route matched with {action = "Get", controller = "Default"}. Executing controller action with signature System.String Get() on controller MusicAlbum.Web.Controllers.DefaultController (MusicAlbum.Web). 
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Info] Executed action MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web) in 1.9039ms 
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Info] Executed endpoint 'MusicAlbum.Web.Controllers.DefaultController.Get (MusicAlbum.Web)' 
+[2020-01-23 15:14:13.7583][DESKTOP-LNQN6UL][Error] An unhandled exception has occurred while executing the request. An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = AlbumService (ReflectionActivator), Services = [MusicAlbum.Service.Service.IAlbumService], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'MusicAlbum.Service.Service.AlbumService' can be invoked with the available services and parameters:
+Cannot resolve parameter 'NLog.ILogger logger' of constructor 'Void .ctor(MusicAlbum.Repository.Repository.IAlbumsRepository, NLog.ILogger)'. (See inner exception for details.)
+[2020-01-23 15:14:13.7769][DESKTOP-LNQN6UL][Info] Request finished in 18.6402ms 500 text/html; charset=utf-8 

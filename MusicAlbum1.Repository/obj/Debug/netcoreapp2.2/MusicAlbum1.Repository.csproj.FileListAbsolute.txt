@@ -1,0 +1,5 @@
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum1.Repository\bin\Debug\netcoreapp2.2\MusicAlbum1.Repository.deps.json
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum1.Repository\bin\Debug\netcoreapp2.2\MusicAlbum1.Repository.dll
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum1.Repository\obj\Debug\netcoreapp2.2\MusicAlbum1.Repository.csproj.CoreCompileInputs.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum1.Repository\obj\Debug\netcoreapp2.2\MusicAlbum1.Repository.AssemblyInfoInputs.cache
+D:\aman_id_project\MusicAlbum\MusicAlbum\MusicAlbum\MusicAlbum1.Repository\obj\Debug\netcoreapp2.2\MusicAlbum1.Repository.AssemblyInfo.cs
